@@ -1,8 +1,8 @@
 [
     {
         "functionRoute": "gatsby-theme-functions/hello-world",
-        "pluginName": "default-site-plugin",
-        "originalAbsoluteFilePath": "/Users/rachaelthomas/Gatsby/cloned-sites/theme-test/site/src/api/gatsby-theme-functions/hello-world.js",
+        "pluginName": "gatsby-theme-functions",
+        "originalAbsoluteFilePath": "/Users/rachaelthomas/Gatsby/cloned-sites/theme-test/gatsby-theme-functions/src/api/gatsby-theme-functions/hello-world.js",
         "originalRelativeFilePath": "gatsby-theme-functions/hello-world.js",
         "relativeCompiledFilePath": "gatsby-theme-functions/hello-world.js",
         "absoluteCompiledFilePath": "/Users/rachaelthomas/Gatsby/cloned-sites/theme-test/site/.cache/functions/gatsby-theme-functions/hello-world.js"

@@ -10,13 +10,13 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/api/gatsby-theme-functions/hello-world.js":
-/*!*******************************************************!*\
-  !*** ./src/api/gatsby-theme-functions/hello-world.js ***!
-  \*******************************************************/
+/***/ "../gatsby-theme-functions/src/api/gatsby-theme-functions/hello-world.js":
+/*!*******************************************************************************!*\
+  !*** ../gatsby-theme-functions/src/api/gatsby-theme-functions/hello-world.js ***!
+  \*******************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ handler)\n/* harmony export */ });\n// This is *not* needed to have the functions work, but is an example of how you can shadow with functions if desired\nfunction handler(req, res) {\n  res.status(200).json({\n    goodbye: `world`\n  });\n}\n\n//# sourceURL=webpack://site/./src/api/gatsby-theme-functions/hello-world.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ handler)\n/* harmony export */ });\n// This is following the namespacing in this article: https://www.gatsbyjs.com/docs/reference/functions/getting-started/#namespacing\nfunction handler(req, res) {\n  res.status(200).json({\n    hello: `world`\n  });\n}\n\n//# sourceURL=webpack://site/../gatsby-theme-functions/src/api/gatsby-theme-functions/hello-world.js?");
 
 /***/ })
 
@@ -60,7 +60,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
 /******/ 	var __webpack_exports__ = {};
-/******/ 	__webpack_modules__["./src/api/gatsby-theme-functions/hello-world.js"](0, __webpack_exports__, __webpack_require__);
+/******/ 	__webpack_modules__["../gatsby-theme-functions/src/api/gatsby-theme-functions/hello-world.js"](0, __webpack_exports__, __webpack_require__);
 /******/ 	module.exports = __webpack_exports__;
 /******/ 	
 /******/ })()
